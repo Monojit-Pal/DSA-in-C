@@ -54,7 +54,7 @@ void mergeSort(int* A, int low, int high) {
 
 int main() {
     int n, A[100];
-    printf("Enter the number of elements: ");
+    printf("Enter the number of elements of array: ");
     scanf("%d", &n);
     printf("Enter the elements: ");
     for (int i = 0; i < n; i++) {
