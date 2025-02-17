@@ -14,6 +14,10 @@ int main() {
     int size = sizeof(arr) / sizeof(int);
     int element = 4;
     int searchIndex = linearSearch(arr, size, element);
-    printf("The element %d was found at index %d\n", element, searchIndex);
+    if (searchIndex != -1) {
+        printf("The element %d was found at index %d\n", element, searchIndex);
+    } else{
+        printf("The element %d was not found\n", element);
+    }
     return 0;
 }
