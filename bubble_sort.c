@@ -28,6 +28,7 @@ int main() {
     int A[] = {12, 54, 65, 7, 23, 9};
     //int A[] = {1, 2, 3, 4, 5, 6};
     int n = 6;
+    //Array Operations
     printArray(A, n);
     bubbleSort(A, n);
     printArray(A, n);
