@@ -73,7 +73,7 @@ int main() {
     // Link second and third nodes
     second->data = 15;
     second->next = third;
-    // Terminate the 
+    // Terminate the third node
     third->data = 21;
     third->next = NULL;
 
