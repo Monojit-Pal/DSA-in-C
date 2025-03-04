@@ -22,6 +22,10 @@ int main() {
     int size = sizeof(arr) / sizeof(int);
     int element = 5;
     int searchIndex = binarySearch(arr, size, element);
-    printf("The element %d found at index %d\n", element, searchIndex);
+    if (searchIndex != -1) {
+        printf("The element %d found at index %d\n", element, searchIndex);
+    } else {
+        printf("Element not found");
+    }
     return 0;
 }
