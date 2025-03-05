@@ -45,7 +45,7 @@ int main() {
     second->data = 25;
     second->prev = head;
     second->next = third;
-    
+    // Link third and fourth
     third->data = 36;
     third->prev = second;
     third->next = fourth;
