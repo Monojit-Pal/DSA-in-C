@@ -73,7 +73,7 @@ int main() {
     top = push(top, 7);
     top = push(top, 8);
     int elem = peak(top, 2);
-    printf("Element at pos 1: %d\n", elem);
+    printf("Element at position 1: %d\n", elem);
     top = pop(top);
     linkedlisttraversal(top);
     return 0;
