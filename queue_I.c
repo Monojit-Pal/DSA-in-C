@@ -50,7 +50,6 @@ int main() {
     q.r = -1;
     q.arr = (int*)malloc(q.size * sizeof(int));
 
-    //Queue operations
     enqueue(&q, 12);
     enqueue(&q, 15);
     display(&q);
