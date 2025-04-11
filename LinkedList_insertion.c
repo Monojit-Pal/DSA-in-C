@@ -81,9 +81,6 @@ int main() {
     linkedlisttraversal(head);
 
     printf("LinkedList after insertion:\n");
-    //head = insertAtFirst(head, 65);
-    //head = insertAtIndex(head, 56, 1);
-    //head = insertAtEnd(head, 56);
     head = insertAfterNode(head, second, 45);
 
     linkedlisttraversal(head);
